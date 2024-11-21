@@ -1,0 +1,21 @@
+This is qn 1 of regural round
+<style>.reveal-btn {
+    display: block;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+</style>
+<script>
+    const showAnswer = () => {
+   document.getElementById("first").classList.toggle('hidden');
+ }
+</script>
+<span> 
+    <button class="reveal-btn" onclick="showAnswer()">Reveal Answer</button>
+    <div id="first" class="hidden">
+        <p>This is ans of qn 1.</p>
+    </div>
+</span>
