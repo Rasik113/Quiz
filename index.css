@@ -1,0 +1,106 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczM4h_YkOPDX-ZGdj8HW46ly3Zq67VCuZbSFjZ4Ii6s5XcqfFhV8deJA2HTB4pf7e2hpiMSPasbWhXKrXXgu3B2MemjMFgDh-VelcgZFar9kAoheVo4=w2400);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .question-list,
+    .categories {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .question-list li,
+    .categories li {
+        margin: 5px 0;
+    }
+
+    .categories {
+        margin-top: 10px;
+
+    }
+
+    .difficulty {
+        margin-left: 20px;
+    }
+
+    .reveal-btn {
+        display: none;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .regular {
+        box-sizing: border-box;
+        border-style: solid;
+        padding: 20px;
+        width: 450px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: xx-large;
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg);
+    }
+
+    .selection {
+        box-sizing: border-box;
+        border-style: solid;
+        padding: 20px;
+        width: 450px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: xx-large;
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg);
+    }
+
+    .buzzer {
+        box-sizing: border-box;
+        border-style: solid;
+        padding: 20px;
+        width: 450px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: larger;
+        font-size: xx-large;
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg);
+    }
+    .rapidFire {
+        box-sizing: border-box;
+        border-style: solid;
+        padding: 20px;
+        width: 450px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: larger;
+        font-size: xx-large;
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg);
+    }
+
+    .categories {
+        display: flex;
+        gap: 80px;
+        flex-wrap: wrap;
+        margin-left: 200px;
+    }
